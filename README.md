@@ -165,7 +165,7 @@ the rows. If there is a miss, please specify the type of miss in the table.
 |      0x04      |         4          | compulsory miss  |
 |      0x04      |         4          | hit              |
 |      0x05      |         0          | compulsory miss  |
-|      0x00      |         0          | compulsory miss  |
+|      0x00      |         0          | conflict miss  |
 |      0x04      |         4          | hit              |
 
 b) For the memory accesses shown below starting from an empty cache, fill in
